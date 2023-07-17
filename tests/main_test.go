@@ -10,7 +10,7 @@ import (
 func TestRun(t *testing.T) {
 	t.Run("1 + 2", func(t *testing.T) {
 		res := task1.RunSum(1, 2)
-		expected := 5
+		expected := 3
 		assert.Equal(t, expected, res)
 	})
 
